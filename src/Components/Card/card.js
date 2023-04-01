@@ -88,7 +88,7 @@ function UserCard({ setUserToEdit, toggle, setToggle }) {
                 <li style={{ marginTop: '5px' }}>
 
                   <button type="button" className="btn btn-dark btn-sm" onClick={() => setUserToEdit(user)}>Edit</button> {' '}
-                  <button type="button" className="btn btn-danger btn-sm" onClick={() => handleDeleteUser(user.id)}>Delete</button>{' '}
+                  <button type="button" className="btn btn-danger btn-sm" onClick={() => handleDeleteUser(user._id)}>Delete</button>{' '}
                   <button
                     type="button"
                     className="btn btn-success btn-sm"
